@@ -1,0 +1,1 @@
+let initMenu=()=>{let menuAside=document.getElementById('menu-aside');document.getElementById('menu-btn').addEventListener('click',function(){menuAside.setAttribute('open','')}),menuAside.addEventListener('click',event=>{event.target===menuAside&&menuAside.removeAttribute('open')})};export default initMenu;
